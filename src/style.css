@@ -1,0 +1,75 @@
+body{
+    background-color:rgb(37, 103, 202);
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+header{
+    justify-content: space-between;
+    padding: 20px;
+    background-color:rgb(37, 103, 202);
+    align-items: center;
+    color: white; 
+}
+a:link{
+    color: rgb(37, 103, 202);;
+    text-decoration: none;
+}
+.Barratop{
+    background-size: auto;
+    display: inline-block;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+    text-decoration: none;
+}
+.LinkSocial{
+    background-size: auto;
+    display: inline-block;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+}
+.bannerimage {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: rgb(47, 98, 186);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 100;
+  border-radius: 20px;
+  text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+  outline: 10px;
+  margin-bottom: 10px;
+}
+.produtos{
+    display: flex;
+    border-width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    position: sticky;
+    border-width: 40px;
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(37, 103, 202);
+    text-decoration: none;
+}
+.Logo{
+    position:static;
+    margin-left: 90%;
+    margin-top: 100px;
+}
